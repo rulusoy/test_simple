@@ -6,7 +6,7 @@ public class book implements Serializable {
 	
 	private String TITLE;
 	private String AUTHOR;
-	private String CALLNO;
+	private String CALLNO; //Now change by ART (1)
 	private int ID;
 	
 	private enum STATE { AVAILABLE, ON_LOAN, DAMAGED, RESERVED };
